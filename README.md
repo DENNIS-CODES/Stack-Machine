@@ -36,3 +36,14 @@ typedef struct stack
           int top;
      }stack;
 ```     
+- In The Above Code file StackMachine.py contains class StackMachine() which Describes the Function of the stack machine
+  i was Supposed to implement the class Stack Machine to check wether user input is a palindrome 
+Approach:  
+
+- Find the length of the string say len. Now, find the mid as mid = len / 2.
+- Push all the elements till mid into the stack i.e. str[0…mid-1].
+- If the length of the string is odd then neglect the middle character.
+- Till the end of the string, keep popping elements from the stack and compare them with the current character i.e. string[i].
+- If there is a mismatch then the string is not a palindrome. If all the elements match then the string is a palindrome.
+
+- File `PalindromeChecker.py` contains the `implementation` of the above `approach`
