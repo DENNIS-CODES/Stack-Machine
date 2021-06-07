@@ -59,3 +59,6 @@ I was Supposed to implement the class Stack Machine() to check wether user `inpu
 - If there is a mismatch then the string is not a palindrome. If all the elements match then the string is a palindrome.
 
 File `PalindromeChecker.py` contains the `implementation` of the above `approach`
+
+## Exetension
+I aslo tried out a program that checks if user input has balanced parenthesis
