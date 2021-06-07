@@ -26,18 +26,30 @@ Position of Top|Status of Stack
 |N| - 1	Stack is full.|
 |N|	Stack is overflow. (Overflow state)|
 
-- Stack can be implemented using `one-dimensional array`. One-dimensional array is used to `hold` elements of a stack. Implementing a stack using array can store `fixed number` of data values. In a stack, initially top is set to `-1`. Top is used to keep track of the `index` of the `Top` most element.
+In The Above files `StackMachine.py` contains class `StackMachine()` which Describes the Function of the stack machine
 
-Stack can be defined using array as follows:
+The __init__() dunder method is the constructor and initializes an empty list (we use list instead of the array in Python).
+Push method append a new data element on the top of the Stack.
+Pop method removes the last element and returns it.
+We need to check underflow condition in the Pop method, this is why we implement isEmpty method. The method isEmpty verify that the array is not empty before performing the Pop operation.
+Note: We didn’t implement the check overflow method because Python lists have dynamic length (it keeps growing). In other programming language you need to implement it.
+
+Here is a quick logic to check overflow condition.
+```
+check_overflow()
+    return size(array_used_in_stack)== maximum
+```
+If Stack is full and we try to push a new data element it gives Stackoverflow error.
+
+Stack can be defined using array in C++ as follows:
 ```
 typedef struct stack
      {
           int element [MAX];   
           int top;
      }stack;
-```     
-In The Above files `StackMachine.py` contains class `StackMachine()` which Describes the Function of the stack machine
-  i was Supposed to implement the class Stack Machine() to check wether user `input` is a `palindrome` or not 
+```  
+I was Supposed to implement the class Stack Machine() to check wether user `input` is a `palindrome` or not 
 ## Approach:  
 
 - Find the length of the string say len. Now, find the mid as mid = len / 2.
