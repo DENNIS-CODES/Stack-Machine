@@ -36,8 +36,8 @@ typedef struct stack
           int top;
      }stack;
 ```     
-- In The Above Code file StackMachine.py contains class StackMachine() which Describes the Function of the stack machine
-  i was Supposed to implement the class Stack Machine to check wether user input is a palindrome 
+In The Above Code file `StackMachine.py` contains class  `StackMachine()` which Describes the Function of the stack machine
+  i was Supposed to implement the class Stack Machine() to check wether user `input` is a `palindrome` or not 
 Approach:  
 
 - Find the length of the string say len. Now, find the mid as mid = len / 2.
