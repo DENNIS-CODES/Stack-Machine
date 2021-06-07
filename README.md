@@ -46,4 +46,4 @@ In The Above files `StackMachine.py` contains class `StackMachine()` which Descr
 - Till the end of the string, keep popping elements from the stack and compare them with the current character i.e. string[i].
 - If there is a mismatch then the string is not a palindrome. If all the elements match then the string is a palindrome.
 
-- File `PalindromeChecker.py` contains the `implementation` of the above `approach`
+File `PalindromeChecker.py` contains the `implementation` of the above `approach`
