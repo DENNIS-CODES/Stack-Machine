@@ -3,7 +3,7 @@
 A stack machine is a kind of automaton that uses a stack for auxiliary data storage. The size of the stack  is  unbounded—it  never  runs  out  of  space—and  that  gives  stack machines  an  edge  over  fi nite  automata.  In  effect,  stack  machines  have infinite memory, though they must use it in stack order.
 Data is available at the top of the stack by convention inside the stack machine. Push and pop instructions are used to get data and instructions from the stack, which functions both as a resource and a terminal. The input and output addresses are not required because the default address is at the top of the stack. So no need to pass specific addresses in the stack machine instruction.
 There is no need to pass explicit addresses in the stack machine instruction. As a result, the OPCODE (Operation Code) field is the only field in the instruction format. This instruction format is known as Zero address instruction.
-- The two operations of the stack are insertion (push) and deletion (pop) of items in the Stack. However, nothing is pushed or popped in a computer stack.
+- The two operations of the stack are insertion (push) and deletion (pop) of items in the Stack.However, nothing physical is pushed or popped in a computer stack.
   Perform the following set of instructions intended for execution on a stack machine:
 > PUSH B, 
 > PUSH X, 
