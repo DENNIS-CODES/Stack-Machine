@@ -28,10 +28,10 @@ Position of Top|Status of Stack
 
 In The Above files `StackMachine.py` contains class `StackMachine()` which Describes the Function of the stack machine
 
-The __init__() dunder method is the constructor and initializes an empty list (we use list instead of the array in Python).
-Push method append a new data element on the top of the Stack.
-Pop method removes the last element and returns it.
-We need to check underflow condition in the Pop method, this is why we implement isEmpty method. The method isEmpty verify that the array is not empty before performing the Pop operation.
+- The __init__() dunder method is the constructor and initializes an empty list (we use list instead of the array in Python).
+- Push method append a new data element on the top of the Stack.
+- Pop method removes the last element and returns it.
+- We need to check underflow condition in the Pop method, this is why we implement isEmpty method. The method isEmpty verify that the array is not empty before performing the     Pop operation.
 Note: We didn’t implement the check overflow method because Python lists have dynamic length (it keeps growing). In other programming language you need to implement it.
 
 Here is a quick logic to check overflow condition.
